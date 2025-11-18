@@ -1,0 +1,10 @@
+replicaCount: 2
+image:
+  repository: "acrtest8943.azurecr.io/test"
+  tag: "v2"
+  pullPolicy: IfNotPresent
+service:
+  type: LoadBalancer
+  port: 80
+resources: {}
+env: {}
