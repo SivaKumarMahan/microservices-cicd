@@ -10,7 +10,7 @@ variable "location" {
 
 variable "resource_group_name" {
   type    = string
-  default = "aimsplus"
+  default = ""
 }
 
 variable "aks_node_count" {
